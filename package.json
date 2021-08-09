@@ -1,0 +1,35 @@
+{
+  "name": "gas_ts_sample",
+  "version": "0.1.0",
+  "description": "A sample GAS code with google/clasp.",
+  "scripts": {
+    "start": "clasp run main",
+    "deploy": "clasp deploy",
+    "test": "npx jest"
+  },
+  "keywords": [
+    "example",
+    "Google App Scripts",
+    "google/clasp",
+    "TypeScript"
+  ],
+  "author": "Niccari",
+  "license": "MIT",
+  "devDependencies": {
+    "@google/clasp": "^2.3.1",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "tslint": "^6.1.3"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.37",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
+  }
+}
